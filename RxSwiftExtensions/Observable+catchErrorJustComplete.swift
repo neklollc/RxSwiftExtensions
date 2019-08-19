@@ -1,5 +1,5 @@
 //
-//  RxSwift+Ext.swift
+//  СatchErrorJustComplete.swift
 //  Domain
 //
 //  Created by Oleg Marchik on 10/19/18.

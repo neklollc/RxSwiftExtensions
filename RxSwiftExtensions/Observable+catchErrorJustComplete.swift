@@ -8,7 +8,7 @@
 
 import RxSwift
 
-public extension ObservableType {
+public extension Observable {
     /**
      Dismiss errors and complete the sequence instead
      

@@ -11,22 +11,7 @@
 		7C201D7D230A9B5C002AAECA /* AutoDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C201D7C230A9B5B002AAECA /* AutoDisposable.swift */; };
 		7C201D88230A9C17002AAECA /* Observable+catchErrorJustComplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C201D87230A9C17002AAECA /* Observable+catchErrorJustComplete.swift */; };
 		7C201D8B230ABF39002AAECA /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C201D8A230ABF39002AAECA /* RxSwift.framework */; };
-		7C201D8C230ABF39002AAECA /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7C201D8A230ABF39002AAECA /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		7C201D8D230ABF39002AAECA /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				7C201D8C230ABF39002AAECA /* RxSwift.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		7C201D71230A9B37002AAECA /* RxSwiftExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwiftExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,7 +92,6 @@
 				7C201D6D230A9B37002AAECA /* Sources */,
 				7C201D6E230A9B37002AAECA /* Frameworks */,
 				7C201D6F230A9B37002AAECA /* Resources */,
-				7C201D8D230ABF39002AAECA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
